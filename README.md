@@ -5,7 +5,4 @@
 
 ### Ubicacion 
 
-
-src/complejo.h  
--
-src/complejo.cpp
+src/complejo.h      src/complejo.cpp
