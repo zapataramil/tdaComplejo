@@ -1,10 +1,5 @@
-/*
- * main.cpp
- *
- *  Created on: 12 sep. 2020
- *      Author: ramil
- */
+#include "complejo.h"
 
-
-
-
+int main (int argc , char** argv){
+	return 0;
+}
