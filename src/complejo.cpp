@@ -32,9 +32,10 @@ Complejo Complejo::operator -(Complejo c){
 	return Complejo(real - c.real, imaginario - c.imaginario);
 }
 
-void Complejo::operator =(Complejo c){
+Complejo& Complejo::operator =(const Complejo &c){
     real = c.real;
 	imaginario =c.imaginario;
+	return *this;
 }
 
 double Complejo::getImaginario(){

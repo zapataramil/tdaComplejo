@@ -33,8 +33,8 @@ public:
 	Complejo operator-(Complejo complejo);
 
 	//PRE: Recibe un complejo
-	//POST: Asigna al complejo que llama al operator= el complejo pasado por parametro
-	void operator=(Complejo complejo);
+	//POST: Devuelve al complejo que llama al operator= el complejo pasado por parametro
+	Complejo& operator=(const Complejo &complejo);
 
 	//PRE: -
 	//POST: Devuelve el modulo (con coma - double) del complejo ingresado por parametro
